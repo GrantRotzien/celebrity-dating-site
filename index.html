@@ -10,29 +10,104 @@
   </head>
   <body>
     <div class="container">
-      <h1>Welcome to the celebrity dating site!</h1>
+      <h1>Welcome to the celebrity dating quiz!</h1>
+      <br>
       <p>Here you will learn which celebirty you are most compatible with.</p>
+      <p>Out of the following, select which option best suits you:</p>
+      <br>
+
+<!--- Favorite Food Category --->
+    <form id="food1">
+      <div class="form-group">
+        <label for="food">Favorite Food</label>
+        <select class="form-control" id="food">
+          <option value="murray">Burger</option>
+          <option value="bridges">Tacos</option>
+          <option value="daniels">Lasagna</option>
+          <option value="quaid">Buffet Style</option>
+          <option value="reilly">Sweet Berry Wine</option>
+        </select>
+        <button type="submit" class="btn btn-primary" id="food-btn">Submit</button>
+      </div>
+    </form>
+<!--- Ideal Evening Category --->
+
+      <div class="form-group">
+        <label for="evening">Ideal Evening</label>
+        <select class="form-control" id="evening">
+          <option value="quaid">1</option>
+          <option value="reilly">2</option>
+          <option value="daniels">3</option>
+          <option value="murray">4</option>
+          <option value="bridges">5</option>
+        </select>
+      </div>
+
+<!--- Favorite Movie Category --->
+
+      <div class="form-group">
+        <label for="movie">Favorite Movie</label>
+        <select class="form-control" id="movie">
+          <option value="reilly">1</option>
+          <option value="bridges">2</option>
+          <option value="quaid">3</option>
+          <option value="daniels">4</option>
+          <option value="murray">5</option>
+        </select>
+      </div>
+
+<!--- Favorite Beverage Category --->
+
+      <div class="form-group">
+        <label for="beverage">Favorite Beverage</label>
+        <select class="form-control" id="beverage">
+          <option value="reilly">1</option>
+          <option value="daniels">2</option>
+          <option value="bridges">3</option>
+          <option value="quaid">4</option>
+          <option value="murray">5</option>
+        </select>
+      </div>
+
+<!--- Favorite Color Category --->
+
+      <div class="form-group">
+        <label for="color">Favorite Color</label>
+        <select class="form-control" id="color">
+          <option value="quaid">1</option>
+          <option value="reilly">2</option>
+          <option value="daniels">3</option>
+          <option value="murray">4</option>
+          <option value="bridges">5</option>
+        </select>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+      <br>
+      <br>
 
       <div id="quaid">
         <img src="img/randyquaid.jpg">
+        <h3>You have matched with Randy Quaid!</h3>
       </div>
 
       <div id="murray">
         <img src="img/billmurray.jpg">
+        <h3>You have matched with Bill Murray!</h3>
       </div>
 
       <div id="bridges">
         <img src="img/bridges.jpg">
+        <h3>You have matched with Jeff Bridges!</h3>
       </div>
 
       <div id="daniels">
         <img src="img/daniels.jpg">
+        <h3>You have matched with Jeff Daniels!</h3>
       </div>
 
       <div id="reilly">
         <img src="img/reilly.jpg">
-      </div>
-
+        <h3>You have matched with John C. Reilly!</h3>
       </div>
     </div>
   </body>
